@@ -11,10 +11,10 @@ from collections import namedtuple
 import logging
 from time import sleep
 from setproctitle import setproctitle
-from yumi_constants import YuMiConstants as YMC
-from yumi_state import YuMiState
-from yumi_exceptions import YuMiCommException
-from yumi_util import message_to_state, message_to_pose, message_to_torques
+from yumipy.yumi_constants import YuMiConstants as YMC
+from yumipy.yumi_state import YuMiState
+from yumipy.yumi_exceptions import YuMiCommException
+from yumipy.yumi_util import message_to_state, message_to_pose, message_to_torques
 
 _RAW_RES = namedtuple('_RAW_RES', 'time message')
 

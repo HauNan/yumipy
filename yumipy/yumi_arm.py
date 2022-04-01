@@ -13,12 +13,12 @@ from time import sleep, time
 from collections import namedtuple
 import numpy as np
 from autolab_core import RigidTransform
-from yumi_constants import YuMiConstants as YMC
-from yumi_state import YuMiState
-from yumi_motion_logger import YuMiMotionLogger
-from yumi_util import message_to_state, message_to_pose
-from yumi_exceptions import YuMiCommException,YuMiControlException
-from yumi_planner import YuMiMotionPlanner
+from yumipy.yumi_constants import YuMiConstants as YMC
+from yumipy.yumi_state import YuMiState
+from yumipy.yumi_motion_logger import YuMiMotionLogger
+from yumipy.yumi_util import message_to_state, message_to_pose
+from yumipy.yumi_exceptions import YuMiCommException,YuMiControlException
+from yumipy.yumi_planner import YuMiMotionPlanner
 import pickle
 
 # Check if ROS and the service file can be imported

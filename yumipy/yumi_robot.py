@@ -4,7 +4,7 @@ Authors: Jacky Liang
 '''
 import logging
 from yumi_arm import YuMiArm, YuMiArmFactory
-from yumi_constants import YuMiConstants as YMC
+from yumipy.yumi_constants import YuMiConstants as YMC
 from time import sleep
 
 class YuMiRobot:
